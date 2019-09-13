@@ -1,3 +1,30 @@
+
+
 header{
   background-color:gray;
+}
+
+.navbar{
+  margin-top: 90px;
+  margin-bottom: 90px;
+  justify-content: left;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.navbar-brand{
+  color:black;
+  font-size: 25;
+  padding-right: 10px;
+}
+
+.logo{
+  margin-right: 40px;
+}
+
+a:hover {
+  border-color:black;
+  background-color: #D3D3D3;
+  color:black;
+  border-radius: 5px;
 }
