@@ -1,7 +1,15 @@
 
+.offsetCol{
+  padding-top: 10px;
+}
 
-header{
-  background-color:gray;
+.line{
+  border-top: 1px solid #000000;
+
+}
+
+.header{
+  background-color:#7c8990;
 }
 
 .navbar{
@@ -27,4 +35,46 @@ a:hover {
   background-color: #D3D3D3;
   color:black;
   border-radius: 5px;
+  /* TODO put a black border around this */
+}
+
+body{
+  background-color:black;
+}
+
+.container{
+  background-color:white;
+}
+
+#mainBody{
+  background-color:white;
+  margin-top:20px;
+  border-radius: 20px;
+}
+
+.inner{
+  padding-left: 20px;
+}
+
+.orangeText{
+  color: #e57300;
+}
+
+.productName{
+  font-weight: bold;
+  font-size: 18;
+  padding-left:40px;
+  padding-bottom: 40px;
+
+
+}
+
+.productSpace{
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  background-color: #e57300;
+  border-radius: 10px;
+  color:white;
+  font-weight: none;
 }
