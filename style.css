@@ -42,14 +42,12 @@ body{
   background-color:black;
 }
 
-.container{
-  background-color:white;
-}
 
 #mainBody{
   background-color:white;
   margin-top:20px;
   border-radius: 20px;
+  margin-bottom: 30px;
 }
 
 .inner{
@@ -57,24 +55,20 @@ body{
 }
 
 .orangeText{
-  color: #e57300;
+  color: #FF8D40;
 }
 
 .productName{
   font-weight: bold;
-  font-size: 18;
   padding-left:40px;
   padding-bottom: 40px;
-
-
 }
 
 .productSpace{
   padding-top: 30px;
   padding-left: 30px;
   padding-bottom: 20px;
-  background-color: #e57300;
+  background-color: #FF8D40;
   border-radius: 10px;
   color:white;
-  font-weight: none;
 }
