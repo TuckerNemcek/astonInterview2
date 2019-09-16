@@ -1,29 +1,38 @@
 
+.logo{
+  width: auto;
+  height: 230px;
+  margin: -10px;
+}
+
 .offsetCol{
   padding-top: 10px;
 }
 
 .line{
   border-top: 1px solid #000000;
-
 }
 
 .header{
-  background-color:#7c8990;
+  background-color:#708090;
+  height: 215px;
 }
 
 .navbar{
-  margin-top: 90px;
+  margin-top: 70px;
   margin-bottom: 90px;
   justify-content: left;
   background-color: white;
   border-radius: 5px;
+  padding-right: 200px;
 }
 
 .navbar-brand{
   color:black;
   font-size: 25;
   padding-right: 10px;
+  padding-left: 10px;
+  border:5px;
 }
 
 .logo{
@@ -31,10 +40,14 @@
 }
 
 a:hover {
-  border-color:black;
+  /* border-style: solid; */
   background-color: #D3D3D3;
   color:black;
+  /* border: 5px; */
   border-radius: 5px;
+  /* border-width: 5px; */
+  border: 1px solid black;
+  bprder
   /* TODO put a black border around this */
 }
 
@@ -45,9 +58,10 @@ body{
 
 #mainBody{
   background-color:white;
-  margin-top:20px;
+  margin-top:15px;
   border-radius: 20px;
   margin-bottom: 30px;
+  padding-top: 20px;
 }
 
 .inner{
@@ -55,7 +69,7 @@ body{
 }
 
 .orangeText{
-  color: #FF8D40;
+  color: #FF6F15;
 }
 
 .productName{
