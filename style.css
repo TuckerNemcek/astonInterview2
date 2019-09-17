@@ -1,7 +1,19 @@
 
+
+
+.pNameText{
+  font-size: 1.3rem;
+  margin-bottom: 10;
+}
+
+.para{
+  font-size: 1.3rem;
+  margin-bottom: -10px;
+}
+
 .logo{
   width: auto;
-  height: 230px;
+  height: 170px;
   margin: -10px;
 }
 
@@ -15,16 +27,17 @@
 
 .header{
   background-color:#708090;
-  height: 215px;
+  height: 160px;
 }
 
 .navbar{
-  margin-top: 70px;
+  margin-top: 30px;
   margin-bottom: 90px;
+  margin-left: -20px;
   justify-content: left;
   background-color: white;
   border-radius: 5px;
-  padding-right: 200px;
+  padding-right: 110px;
 }
 
 .navbar-brand{
@@ -48,7 +61,6 @@ a:hover {
   /* border-width: 5px; */
   border: 1px solid black;
   bprder
-  /* TODO put a black border around this */
 }
 
 body{
@@ -70,9 +82,11 @@ body{
 
 .orangeText{
   color: #FF6F15;
+  letter-spacing: 8px ;
 }
 
 .productName{
+  width: 325px;
   font-weight: bold;
   padding-left:40px;
   padding-bottom: 40px;
@@ -85,4 +99,11 @@ body{
   background-color: #FF8D40;
   border-radius: 10px;
   color:white;
+  font-size: 1.25rem;
+  font-weight: 100;
+}
+
+.productDescription {
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
 }
