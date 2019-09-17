@@ -9,6 +9,7 @@
 .para{
   font-size: 1.3rem;
   margin-bottom: -10px;
+  font-family: Helvetica;
 }
 
 .logo{
@@ -53,12 +54,9 @@
 }
 
 a:hover {
-  /* border-style: solid; */
   background-color: #D3D3D3;
   color:black;
-  /* border: 5px; */
   border-radius: 5px;
-  /* border-width: 5px; */
   border: 1px solid black;
   bprder
 }
@@ -72,7 +70,7 @@ body{
   background-color:white;
   margin-top:15px;
   border-radius: 20px;
-  margin-bottom: 30px;
+  padding-bottom: 10px;
   padding-top: 20px;
 }
 
@@ -95,9 +93,9 @@ body{
 .productSpace{
   padding-top: 30px;
   padding-left: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   background-color: #FF8D40;
-  border-radius: 10px;
+  border-radius: 20px;
   color:white;
   font-size: 1.25rem;
   font-weight: 100;
